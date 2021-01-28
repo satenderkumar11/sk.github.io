@@ -1,11 +1,11 @@
 * {
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    box-sizing: content-box;
+    font-family: 'Rajdhani', sans-serif;
+    
     color: black; 
 }
 
 body{background-color: black;
-    background-image: url(img/background-2462434_1920.jpg);
+    background-image: url(img/b2.jpg);
     background-attachment: scroll;
     background-size:cover;
     
@@ -30,21 +30,23 @@ a{
     padding: 5px 20px 5px 20px ;
     
 }
+section {
+    height:600px ;
+    width: 500px;
+    margin-left: 530px;
+}
 
 
 span.name{
     color: white;
     font-size: 50px;
     padding: 20px;
-    margin-right: 5vmax;
+    margin-right: 350px;
 }
 
 
- a:active {
-    
-   background-color:aqua ;
-    text-decoration: underline;
-}
+ 
+
 
 a:hover {
     background-color: rgb(255, 255, 255);
@@ -52,6 +54,8 @@ a:hover {
 
     border: 1px solid white;
     border-radius: 5px;
+    text-decoration: underline;
+
 }
 
 
@@ -59,29 +63,27 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     clip-path: circle(50% at 50% 50%);
    
 }
 
-a.about {
-    margin-left: 15vmax;
 
-}
+
+
  
-h1 {
+h1 { 
     font-size: 40px;
     text-align: center;
-    padding-left: 25vmax;
-    padding-right: 20vmax;
+    
+    
 }
 p {
     font-size: 25px;
     text-align: center;
-    padding-left: 36vmax;
-    padding-right: 30vmax;
-}
+    
+} 
 
    
  
