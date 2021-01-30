@@ -4,6 +4,7 @@
 }
 
 body {
+    margin: 0px;
     background-color: black;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/wall-21534_1920.jpg);
     background-attachment: scroll;
